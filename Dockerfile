@@ -10,5 +10,8 @@ COPY . /app
 # Install the application dependencies
 RUN npm install
 
+# Install the OpenAI dependencies
+RUN npm install openai
+
 # Define the entry point for the container
 CMD ["npm", "start"]
