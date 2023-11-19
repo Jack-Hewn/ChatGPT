@@ -1,7 +1,7 @@
 {
-  "name": "Terminator bot",
-  "description": "Terminator bot based on the Basic Groupme Bot written in Node",
-  "repository": "https://github.com/petemcgrath/cool-guy-bot",
+  "name": "ChatGPMe",
+  "description": "OpenAI-GroupMe integration bot based on the Basic Groupme Bot written in Node",
+  "repository": "https://github.com/Jack-Hewn/ChatGPT",
   "logo": "http://www.tailgate365.com/wp-content/uploads/2011/06/tom-hanks-906.jpg",
   "keywords": []
 }
