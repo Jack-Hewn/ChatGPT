@@ -10,7 +10,5 @@ COPY . /app
 # Install the application dependencies
 RUN npm install
 
-RUN npm install openai dotenv
-
 # Define the entry point for the container
 CMD ["npm", "start"]
