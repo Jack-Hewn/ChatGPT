@@ -3,7 +3,7 @@ const { Configuration, OpenAIAPI } = require("openai");
 const configuration = new Configuration({
   apiKey: "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",
 });
-const openai = new OpenAIApi(configuration);
+const openai = new OpenAIAPI(configuration);
 
 var HTTPS = require('https');
 var cool = require('cool-ascii-faces');
