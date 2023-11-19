@@ -1,4 +1,4 @@
-import { OpenAI } from "./src/openai/OpenAI.js";
+import { OpenAI } from "bot.js";
 import dotenv from 'dotenv';
 dotenv.config();
 // Creating a new instance of the OpenAI class and passing in the OPENAI_KEY environment variable
