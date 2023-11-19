@@ -1,3 +1,8 @@
+const configuration = new Configuration({
+  apiKey: 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,
+});
+const openai = new OpenAIApi(configuration);
+
 var HTTPS = require('https');
 var cool = require('cool-ascii-faces');
 
