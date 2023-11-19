@@ -1,3 +1,5 @@
+const { Configuration, OpenAIApi } = require("openai");
+
 var http, director, cool, bot, router, server, port;
 
 http        = require('http');
