@@ -1,5 +1,12 @@
 import { Configuration, OpenAIApi } from 'openai';
-import
+import dotenv from 'dotenv';
+dotenv.config();
+
+const configuration = new Configuration({
+  apiKey: process.env.OPENAI_API_KEY
+});
+
+const openai = new OpenAIApi(configuration);
 
 var http, director, cool, bot, router, server, port;
 
