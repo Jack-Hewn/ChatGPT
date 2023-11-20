@@ -1,5 +1,3 @@
-npm install openai
-
 const { Configuration, OpenAIAPI } = require("openai");
 
 const configuration = new OpenAIAPI.Configuration({
