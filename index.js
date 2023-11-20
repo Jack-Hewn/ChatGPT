@@ -1,4 +1,5 @@
-const { Configuration, OpenAIApi } = require("openai");
+import { Configuration, OpenAIApi } from 'openai';
+import
 
 var http, director, cool, bot, router, server, port;
 
