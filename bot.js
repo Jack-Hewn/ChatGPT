@@ -1,3 +1,13 @@
+const { OpenAIAPI } = require('openai');
+
+// Create a configuration object with your API key
+const configuration = new OpenAIAPI.Configuration({
+  apiKey: "your-api-key-here",
+});
+
+// Initialize the OpenAIAPI instance with the configuration
+const openai = new OpenAIAPI(configuration);
+
 var HTTPS = require('https');
 var cool = require('cool-ascii-faces');
 
