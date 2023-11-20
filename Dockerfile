@@ -11,7 +11,7 @@ COPY . /app
 RUN npm install
 
 # Install the OpenAI dependencies
-RUN npm install openai readline-sync
+RUN npm install openai readline-sync dotenv
 
 # Define the entry point for the container
 CMD ["npm", "start"]
