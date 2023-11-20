@@ -2,7 +2,7 @@ const { OpenAIAPI } = require('openai');
 
 // Create a configuration object with your API key
 const configuration = new OpenAIAPI.Configuration({
-  apiKey: "your-api-key-here",
+  apiKey: "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",
 });
 
 // Initialize the OpenAIAPI instance with the configuration
